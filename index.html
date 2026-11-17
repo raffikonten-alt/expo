@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SD Negeri 2 sukajaya - Website Resmi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Bar Info Atas -->
+    <div class="top-bar">
+        <div class="container">
+            <span>NPSN: 20219876 | Akreditasi: A</span>
+            <span>Telp: (0264) 201234 | Email: info@sdn02sukajaya.sch.id</span>
+        </div>
+    </div>
+
+    <!-- Header & Navigasi -->
+    <header>
+        <div class="container header-flex">
+            <div class="logo">
+                <!-- Ganti src dengan file logo sekolah jika ada -->
+                <div class="logo-box">SDN 02</div>
+                <div>
+                    <h1>SD Negeri 02 sukajaya</h1>
+                    <p>Cerdas, Berkarakter, dan Berbudaya Lingkungan</p>
+                </div>
+            </div>
+            <nav id="navbar">
+                <ul>
+                    <li><a href="#beranda">Beranda</a></li>
+                    <li><a href="#profil">Profil</a></li>
+                    <li><a href="#berita">Berita</a></li>
+                    <li><a href="#galeri">Kegiatan</a></li>
+                    <li><a href="#ppdb" class="btn-ppdb">Info PPDB</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        </div>
+    </header>
+
+    <!-- Banner Utama -->
+    <section id="beranda" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <span class="badge">Tahun Ajaran 2026/2027</span>
+                <h2>Selamat Datang di Website Resmi SD Negeri 2 sukajaya</h2>
+                <p>Mewujudkan generasi penerus bangsa yang berakhlak mulia, gemar membaca, dan berprestasi di bidang akademik maupun non-akademik.</p>
+                <div class="hero-buttons">
+                    <a href="#profil" class="btn-primary">Tentang Sekolah</a>
+                    <a href="#kontak" class="btn-secondary">Hubungi Kami</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info Cepat (Statistik) -->
+    <section class="stats">
+        <div class="container stats-grid">
+            <div class="stat-item">
+                <h3>18</h3>
+                <p>Rombongan Belajar</p>
+            </div>
+            <div class="stat-item">
+                <h3>24</h3>
+                <p>Guru & Tenaga Kependidikan</p>
+            </div>
+            <div class="stat-item">
+                <h3>540</h3>
+                <p>Peserta Didik Aktif</p>
+            </div>
+            <div class="stat-item">
+                <h3>12</h3>
+                <p>Ekstrakurikuler</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sambutan Kepala Sekolah & Profil -->
+    <section id="profil" class="section">
+        <div class="container profile-grid">
+            <div class="kepsek-box">
+                <img src="endin.jpg" alt="kepala sekolah">
+                <div class="kepsek-info">
+                    <h4>pak endin, M.Pd.</h4>
+                    <span>Kepala Sekolah SDN 2 sukajaya</span>
+                </div>
+            </div>
+            <div class="profile-text">
+                <h3 class="section-title">Sambutan Kepala Sekolah</h3>
+                <p>Assalamu'alaikum Warahmatullahi Wabarakatuh,</p>
+                <p>Puji syukur kita panjatkan ke hadirat Allah SWT karena atas limpahan rahmat-Nya, website resmi SD Negeri 2 sukajaya ini dapat hadir sebagai media informasi dan komunikasi bagi seluruh warga sekolah, orang tua siswa, serta masyarakat luas.</p>
+                <p>Kami berkomitmen untuk terus meningkatkan mutu pendidikan dasar melalui pembelajaran yang menyenangkan, pembiasaan karakter positif setiap pagi, serta pemanfaatan teknologi yang bijak.</p>
+                
+                <div class="visi-misi">
+                    <h4>Visi Sekolah</h4>
+                    <p>"Terwujudnya peserta didik yang beriman, bertaqwa, cerdas, terampil, mandiri, dan berwawasan global."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Berita & Pengumuman -->
+    <section id="berita" class="section bg-light">
+        <div class="container">
+            <h3 class="section-title text-center">Berita & Pengumuman Terbaru</h3>
+            <p class="section-subtitle text-center">Informasi kegiatan belajar mengajar dan pengumuman resmi sekolah</p>
+            
+            <div class="news-grid">
+                <article class="news-card">
+                    <img src="https://unsplash.com" alt="Kegiatan Belajar">
+                    <div class="news-body">
+                        <span class="news-date">10 November 2026</span>
+                        <h4>Peringatan Hari Pahlawan dan Lomba Membaca Puisi Tingkat SD</h4>
+                        <p>Seluruh siswa kelas 1 hingga kelas 6 mengikuti upacara bendera dengan khidmat dilanjutkan lomba puisi antar kelas.</p>
+                        <a href="#" class="read-more">Baca selengkapnya →</a>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <img src="https://unsplash.com" alt="Pramuka">
+                    <div class="news-body">
+                        <span class="news-date">02 November 2026</span>
+                        <h4>Persiapan Persami Gugus Depan Pramuka Penggalang</h4>
+                        <p>Kegiatan perkemahan Sabtu Minggu akan dilaksanakan di halaman sekolah guna melatih kemandirian siswa.</p>
+                        <a href="#" class="read-more">Baca selengkapnya →</a>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <img src="https://unsplash.com" alt="Perpustakaan">
+                    <div class="news-body">
+                        <span class="news-date">25 Oktober 2026</span>
+                        <h4>Program Gerakan Literasi Sekolah: 15 Menit Membaca Sebelum Belajar</h4>
+                        <p>Perpustakaan sekolah baru saja menerima tambahan 200 judul buku cerita anak dan ensiklopedia bergambar.</p>
+                        <a href="#" class="read-more">Baca selengkapnya →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bagian PPDB Sederhana -->
+    <section id="ppdb" class="section ppdb-banner">
+        <div class="container ppdb-flex">
+            <div>
+                <h3>Penerimaan Peserta Didik Baru (PPDB)</h3>
+                <p>Pendaftaran siswa baru kelas 1 akan segera dibuka. Siapkan berkas Kartu Keluarga dan Akta Kelahiran.</p>
+            </div>
+            <button class="btn-primary" onclick="bukaModal()">Cek Syarat Pendaftaran</button>
+        </div>
+    </section>
+
+    <!-- Footer & Kontak -->
+    <footer id="kontak">
+        <div class="container footer-grid">
+            <div>
+                <h4>SD Negeri 2 sukajaya</h4>
+                <p>Jl. citapen, Kec. sukatani, Kabupaten Purwakarta, Jawa Barat </p>
+                <p>Jam Operasional: Senin - Jumat (06.30 - 11.00 WIB)</p>
+            </div>
+            <div>
+                <h4>Tautan Penting</h4>
+                <ul>
+                    <li><a href="#">Dapodikdasmen</a></li>
+                    <li><a href="#">Portal BOS Kemdikbud</a></li>
+                    <li><a href="#">Dinas Pendidikan Kabupaten</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Kontak Sekolah</h4>
+                <p>Telepon: (0264) 201234</p>
+                <p>WhatsApp TU: 0812-3456-7890</p>
+                <p>Email: info@sdn02sukajaya.sch.id</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 SD Negeri 2 sukajaya. Hak Cipta Dilindungi.</p>
+        </div>
+    </footer>
+
+    <!-- Modal Pop-up Info PPDB -->
+    <div id="modalPPDB" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="tutupModal()">&times;</span>
+            <h3>Persyaratan PPDB Kelas 1</h3>
+            <ul class="syarat-list">
+                <li>Berusia minimal 6 tahun pada tanggal 1 Juli tahun berjalan.</li>
+                <li>Fotokopi Akta Kelahiran (2 lembar).</li>
+                <li>Fotokopi Kartu Keluarga (2 lembar).</li>
+                <li>Fotokopi KTP Orang Tua / Wali.</li>
+                <li>Pas foto ukuran 3x4 latar belakang merah (4 lembar).</li>
+            </ul>
+            <p class="catatan">*Pendaftaran dilakukan langsung di ruang Tata Usaha sekolah pada jam kerja.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
